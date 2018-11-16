@@ -127,5 +127,9 @@ public class Buildings{
         return newBuilding;
     }
 
+    public static SynchronizedFloor synchronizeFloor(Floor floor){
+        return new SynchronizedFloor(floor);
+    }
+
 
 }

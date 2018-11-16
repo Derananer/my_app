@@ -3,7 +3,9 @@ package com.company.buildings;
 import com.company.myExceptions.FloorIndexOutOfBoundsException;
 import com.company.myExceptions.SpaceIndexOutOfBoundsException;
 
-public interface Building extends Iterable<Floor>{
+import java.io.Serializable;
+
+public interface Building extends Iterable<Floor>, Serializable, Cloneable{
 
     int getFloorsCount();
     int getSpacesCount();

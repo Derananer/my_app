@@ -33,9 +33,9 @@ public class HotelFloor extends DwellingFloor {
         if (object instanceof HotelFloor) {
             if (this.getSpacesCount() == ((HotelFloor) object).getSpacesCount()) {
                 for (int i = 0; i < this.getSpacesCount(); i++) {
-                    if (this.getSpace(i).equals(((HotelFloor) object).getSpace(i)) == false&&
-                            this.getHotelFloorStar()==((HotelFloor) object).getHotelFloorStar()
-                    )
+                    if (this.getSpace(i).equals(((HotelFloor) object).getSpace(i)) == false &&
+                            this.getHotelFloorStar() == ((HotelFloor) object).getHotelFloorStar()
+                            )
                         return false;
                 }
                 return true;

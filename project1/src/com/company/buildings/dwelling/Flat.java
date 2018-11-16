@@ -7,7 +7,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.Serializable;
 
-public class Flat implements Space, Serializable,Cloneable {
+public class Flat implements Space {
     private double square;
     private int roomCount;
     private final int ROOM_COUNT = 2;
