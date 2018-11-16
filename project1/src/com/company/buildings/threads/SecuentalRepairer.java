@@ -8,11 +8,13 @@ import java.util.concurrent.Semaphore;
 
 public class SecuentalRepairer implements Runnable {
 
-    private Semaphore semaphore;
+    private Semaphore enterSemaphore;
+    private Semaphore leaveSemaphore;
     private Building building;
 
-    public SecuentalRepairer(Building building, Semaphore semaphore) {
-        this.semaphore = semaphore;
+    public SecuentalRepairer(Building building, Semaphore enterSemaphore, Semaphore leaveSemaphore) {
+        this.enterSemaphore = enterSemaphore;
+        this.leaveSemaphore = leaveSemaphore;
         this.building = building;
     }
 
@@ -26,8 +28,13 @@ public class SecuentalRepairer implements Runnable {
             for (Space space :
                     floor
                     ) {
-                semaphore.release();
-                System.out.println("Repairing space number " + i++ + " with total area " + space.getSquare() + " square meters");
+                try {
+                    enterSemaphore.acquire();
+                    System.out.println("Repairing space number " + i++ + " with total area " + space.getSquare() + " square meters");
+                    leaveSemaphore.release();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
 

@@ -8,11 +8,13 @@ import java.util.concurrent.Semaphore;
 
 public class SequentalCleaner implements Runnable{
 
-    private Semaphore semaphore;
+    private Semaphore enterSemaphore;
+    private Semaphore leaveSemaphore;
     private Building building;
 
-    public SequentalCleaner(Building building, Semaphore semaphore){
-        this.semaphore = semaphore;
+    public SequentalCleaner(Building building, Semaphore enterSemaphore, Semaphore leaveSemaphore) {
+        this.enterSemaphore = enterSemaphore;
+        this.leaveSemaphore = leaveSemaphore;
         this.building = building;
     }
 
@@ -27,9 +29,9 @@ public class SequentalCleaner implements Runnable{
                     floor
                     ) {
                 try {
-                    semaphore.acquire();
+                    enterSemaphore.acquire();
                     System.out.println("Cleaning space number " +  i++ + " with total area " + space.getSquare() + " square meters");
-
+                    leaveSemaphore.release();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
