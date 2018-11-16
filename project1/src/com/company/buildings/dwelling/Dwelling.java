@@ -12,7 +12,7 @@ import java.io.Serializable;
 import java.util.Comparator;
 import java.util.Iterator;
 
-public class Dwelling implements Building, Serializable,Cloneable{
+public class Dwelling implements Building{
 
     Floor[] floors ;
 

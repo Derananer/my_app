@@ -2,7 +2,9 @@ package com.company.buildings;
 
 import com.company.myExceptions.SpaceIndexOutOfBoundsException;
 
-public interface Floor extends Iterable<Space>, Comparable<Floor>{
+import java.io.Serializable;
+
+public interface Floor extends Iterable<Space>, Comparable<Floor>, Serializable, Cloneable{
     int getSpacesCount();
     double getTotalFloorSquare();
     int getTotalRoomCount();

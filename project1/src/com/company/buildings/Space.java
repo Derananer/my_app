@@ -1,6 +1,8 @@
 package com.company.buildings;
 
-public interface  Space extends Cloneable, Comparable<Space> {
+import java.io.Serializable;
+
+public interface  Space extends Cloneable, Comparable<Space>,Serializable {
     int getRoomCount();
     void changeRoomCount(int newRoomCount);
     double getSquare();

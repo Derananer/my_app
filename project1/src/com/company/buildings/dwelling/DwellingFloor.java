@@ -8,7 +8,7 @@ import org.jetbrains.annotations.NotNull;
 import java.io.Serializable;
 import java.util.Iterator;
 
-public class DwellingFloor implements Floor, Serializable,Cloneable {
+public class DwellingFloor implements Floor {
     Space[] flats;
     public DwellingFloor(int flatsCount ){
         this.flats = new Space[flatsCount];
