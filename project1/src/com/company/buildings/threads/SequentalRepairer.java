@@ -6,13 +6,13 @@ import com.company.buildings.Space;
 
 import java.util.concurrent.Semaphore;
 
-public class SecuentalRepairer implements Runnable {
+public class SequentalRepairer implements Runnable {
 
     private Semaphore enterSemaphore;
     private Semaphore leaveSemaphore;
     private Building building;
 
-    public SecuentalRepairer(Building building, Semaphore enterSemaphore, Semaphore leaveSemaphore) {
+    public SequentalRepairer(Building building, Semaphore enterSemaphore, Semaphore leaveSemaphore) {
         this.enterSemaphore = enterSemaphore;
         this.leaveSemaphore = leaveSemaphore;
         this.building = building;
