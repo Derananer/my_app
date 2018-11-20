@@ -8,11 +8,11 @@ import java.util.concurrent.Semaphore;
 
 public class SequentalRepairer implements Runnable {
 
-    private Semaphore enterSemaphore;
-    private Semaphore leaveSemaphore;
+    private MySemaphore enterSemaphore;
+    private MySemaphore leaveSemaphore;
     private Building building;
 
-    public SequentalRepairer(Building building, Semaphore enterSemaphore, Semaphore leaveSemaphore) {
+    public SequentalRepairer(Building building, MySemaphore enterSemaphore, MySemaphore leaveSemaphore) {
         this.enterSemaphore = enterSemaphore;
         this.leaveSemaphore = leaveSemaphore;
         this.building = building;
