@@ -1,13 +1,12 @@
-package com.company.buildings.officeBuildings;
+package com.company.buildings.officeBuilding;
 
 import com.company.buildings.Building;
 import com.company.buildings.Floor;
 import com.company.buildings.Space;
 import com.company.buildings.SpaceComparator;
 import com.company.myExceptions.FloorIndexOutOfBoundsException;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
-import java.io.Serializable;
 import java.util.Iterator;
 
 public class OfficeBuilding implements Building{
@@ -151,7 +150,6 @@ public class OfficeBuilding implements Building{
     }
 
     public void delSpace(int index) {
-
         int i = 0;
         while (index > floors[i].getSpacesCount()) {
             index -= floors[i].getSpacesCount();
@@ -206,7 +204,6 @@ public class OfficeBuilding implements Building{
         return arr;
     }
 
-    @NotNull
     @Override
     public Iterator<Floor> iterator() {
         return new OfficeBuildingIterator(this);

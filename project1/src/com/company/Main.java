@@ -1,16 +1,10 @@
 package com.company;
 
 import com.company.buildings.*;
-import com.company.buildings.dwelling.Flat;
-import com.company.buildings.hotel.HotelFactory;
-import com.company.buildings.officeBuildings.Office;
-import com.company.buildings.officeBuildings.OfficeFactory;
-import com.company.buildings.officeBuildings.OfficeFloor;
+import com.company.buildings.officeBuilding.OfficeFactory;
 import com.company.buildings.threads.MySemaphore;
 import com.company.buildings.threads.SequentalCleaner;
 import com.company.buildings.threads.SequentalRepairer;
-import com.company.myExceptions.FloorIndexOutOfBoundsException;
-import com.company.myExceptions.InexchangeableFloorsException;
 
 
 import java.io.*;

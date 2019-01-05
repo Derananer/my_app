@@ -6,7 +6,7 @@ import com.company.buildings.Space;
 import com.company.buildings.SpaceComparator;
 import com.company.myExceptions.FloorIndexOutOfBoundsException;
 import com.company.myExceptions.SpaceIndexOutOfBoundsException;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.io.Serializable;
 import java.util.Comparator;
@@ -200,7 +200,7 @@ public class Dwelling implements Building{
         return arr;
     }
 
-    @NotNull
+
     @Override
     public Iterator<Floor> iterator() {
         return new DwellingIterator(this);

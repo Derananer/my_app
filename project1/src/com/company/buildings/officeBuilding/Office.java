@@ -1,11 +1,10 @@
-package com.company.buildings.officeBuildings;
+package com.company.buildings.officeBuilding;
 
 import com.company.buildings.Space;
 import com.company.myExceptions.InvalidRoomsCountException;
 import com.company.myExceptions.InvalidSpaceAreaException;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
-import java.io.Serializable;
 
 public class Office implements Space{
     private double square;
@@ -71,7 +70,7 @@ public class Office implements Space{
     }
 
     @Override
-    public int compareTo(@NotNull Space o) {
+    public int compareTo(Space o) {
         return (int)(100 * o.getSquare() - 100 * this.getSquare());
     }
 }

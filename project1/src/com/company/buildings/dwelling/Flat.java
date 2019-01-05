@@ -3,7 +3,7 @@ package com.company.buildings.dwelling;
 import com.company.buildings.Space;
 import com.company.myExceptions.InvalidRoomsCountException;
 import com.company.myExceptions.InvalidSpaceAreaException;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.io.Serializable;
 
@@ -66,7 +66,7 @@ public class Flat implements Space {
     }
 
     @Override
-    public int compareTo(@NotNull Space o) {
+    public int compareTo(Space o) {
         return (int)(100 * o.getSquare() - 100 * this.getSquare());
     }
 

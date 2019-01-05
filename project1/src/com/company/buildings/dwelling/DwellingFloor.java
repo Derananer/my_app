@@ -3,7 +3,7 @@ package com.company.buildings.dwelling;
 import com.company.buildings.Floor;
 import com.company.buildings.Space;
 import com.company.myExceptions.SpaceIndexOutOfBoundsException;
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 import java.io.Serializable;
 import java.util.Iterator;
@@ -135,7 +135,7 @@ public class DwellingFloor implements Floor {
     }
 
     @Override
-    public int compareTo(@NotNull Floor o) {
+    public int compareTo(Floor o) {
         return o.getSpacesCount() - this.getSpacesCount();
     }
 }

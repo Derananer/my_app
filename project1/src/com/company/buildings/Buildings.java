@@ -86,7 +86,7 @@ public class Buildings{
     }
 
     public static Building readBuilding(Reader in) throws IOException{
-        StreamTokenizer streamTokenizer = new StreamTokenizer(new BufferedReader(in));
+        StreamTokenizer streamTokenizer = new StreamTokenizer(in);
         Space[] newSpaces;
         if (streamTokenizer.nextToken() == StreamTokenizer.TT_NUMBER) {
             int floorsCount = (int) streamTokenizer.nval;
@@ -109,6 +109,7 @@ public class Buildings{
                     newFloors[i] = buildingFactory.createFloor(newSpaces);
                 }
             }
+           // if (streamTokenizer.nextToken() == StreamTokenizer.TT_EOL)System.out.println("hello");
             return buildingFactory.createBuilding(newFloors);
         }
         else return null;

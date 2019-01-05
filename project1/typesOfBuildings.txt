@@ -1,0 +1,4 @@
+Dwelling
+OfficeBuilding
+Dwelling
+Hotel

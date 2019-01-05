@@ -1,4 +1,4 @@
-package com.company.buildings.officeBuildings;
+package com.company.buildings.officeBuilding;
 
 import com.company.buildings.Floor;
 
