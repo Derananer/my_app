@@ -19,7 +19,7 @@ public class BinaryServer {
     static final int OFFICE_BUILDING = 11;
     static final int HOTEL = 12;
 
-    double costEstimate(Building building){
+    static double costEstimate(Building building){
         double koef = 0;
         if(building instanceof Dwelling)koef = 1000;
         if(building instanceof OfficeBuilding)koef = 1500;
@@ -40,8 +40,9 @@ public class BinaryServer {
             e.printStackTrace();
         }
         while(true) {
-            try (OutputStreamWriter stdOutput = new OutputStreamWriter(System.out)) {
+            try {
                 clientSocket = server.accept();
+                System.out.println("Client connect.\\\\\\\\\\\\\\\\\\\\\\\\\n");
                // clientInput = new DataInputStream(clientSocket.getInputStream());
                 buildingsAmount = new DataInputStream(clientSocket.getInputStream()).readInt();
                 System.out.println("buildings amount: " + buildingsAmount);
@@ -50,19 +51,20 @@ public class BinaryServer {
                     typeOfBuilding = new DataInputStream(clientSocket.getInputStream()).readInt();
                     if (typeOfBuilding == DWELLING) {
                         Buildings.setBuildingFactory(new DwellingFactory());
+                        System.out.print("Type Dwelling was read. ");
                     }
                     if (typeOfBuilding == HOTEL) {
                         Buildings.setBuildingFactory(new HotelFactory());
+                        System.out.print("Type Hotel was read. ");
                     }
                     if (typeOfBuilding == OFFICE_BUILDING) {
                         Buildings.setBuildingFactory(new OfficeFactory());
+                        System.out.print("Type OfficeBuilding was read. ");
                     }
                     Building testBuilding = Buildings.inputBuilding(clientSocket.getInputStream());
-                    if(testBuilding instanceof OfficeBuilding)stdOutput.write("OfficeBuilding: ");
-                    if(testBuilding instanceof Dwelling)stdOutput.write("Dwelling: ");
-                    if(testBuilding instanceof HotelBuilding)stdOutput.write("Hotel: ");
-                    Buildings.writeBuilding(testBuilding, stdOutput);
-                    stdOutput.write("\n");
+                    System.out.println("Building was read.");
+                    new DataOutputStream(clientSocket.getOutputStream()).writeDouble(costEstimate(testBuilding));
+                    System.out.println("Building cost was sent.\n");
                 }
             }
             catch (IOException e) {
@@ -71,7 +73,7 @@ public class BinaryServer {
                 e.printStackTrace();
             }finally {
                 try {
-                   // clientInput.close();
+                    System.out.println("Client disconnect.\\\\\\\\\\\\\\\\\\\\\\\\\n\n");
                     clientSocket.close();
                 } catch (IOException e) {
                     e.printStackTrace();
