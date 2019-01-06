@@ -22,7 +22,7 @@ public class BinaryClient {
     public static void main(String[] args) {
 
         int buildingCount = 0;
-        try (Socket socket = new Socket("localhost", 25069);
+        try (Socket socket = new Socket("192.168.0.105", 25069);
              FileReader fileBuildings = new FileReader("MyTxt1.txt")
         ) {
             ArrayList<String> lines = new ArrayList<>();
@@ -47,7 +47,8 @@ public class BinaryClient {
                     new DataOutputStream(socket.getOutputStream()).writeInt(OFFICE_BUILDING);
                 }
                 Buildings.outputBuilding(Buildings.readBuilding(fileBuildings), socket.getOutputStream());
-                System.out.println("send building " + buildingCount++);
+                System.out.println("send building " + buildingCount);
+                System.out.println("building " + buildingCount++ + " costs " + (new DataInputStream(socket.getInputStream())).readDouble() + "\n\n");
             }
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
