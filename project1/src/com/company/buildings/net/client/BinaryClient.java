@@ -9,52 +9,50 @@ import com.company.buildings.officeBuilding.OfficeFactory;
 
 import java.io.*;
 import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 
 public class BinaryClient {
+    static final int DWELLING = 10;
+    static final int OFFICE_BUILDING = 11;
+    static final int HOTEL = 12;
+
     public static void main(String[] args) {
-        FileReader fileBuildings = null;
+
+        int buildingCount = 0;
         try (Socket socket = new Socket("localhost", 25069);
-                BufferedReader typesOfBuildings = new BufferedReader(new FileReader("typesOfBuildings.txt"))
-                ){
-            fileBuildings = new FileReader("MyTxt1.txt");
-            ArrayList<Building> buildings = new ArrayList<>();
-            String line = typesOfBuildings.readLine();
-            while(line != null) {
-                if (line.equals("Dwelling") == true){
+             FileReader fileBuildings = new FileReader("MyTxt1.txt")
+        ) {
+            ArrayList<String> lines = new ArrayList<>();
+            Files.lines(Paths.get("typesOfBuildings.txt"), StandardCharsets.UTF_8).forEach(lines::add);
+            new DataOutputStream(socket.getOutputStream()).writeInt(lines.size());
+            for (String line :
+                    lines
+            ) {
+                if (line.equals("Dwelling") == true) {
                     System.out.println(line);
                     Buildings.setBuildingFactory(new DwellingFactory());
+                    new DataOutputStream(socket.getOutputStream()).writeInt(DWELLING);
                 }
-                if (line.equals("Hotel") == true){
+                if (line.equals("Hotel") == true) {
                     System.out.println(line);
                     Buildings.setBuildingFactory(new HotelFactory());
+                    new DataOutputStream(socket.getOutputStream()).writeInt(HOTEL);
                 }
-                if (line.equals("OfficeBuilding") == true){
+                if (line.equals("OfficeBuilding") == true) {
                     System.out.println(line);
                     Buildings.setBuildingFactory(new OfficeFactory());
+                    new DataOutputStream(socket.getOutputStream()).writeInt(OFFICE_BUILDING);
                 }
-                buildings.add(Buildings.readBuilding(fileBuildings));
-                System.out.println(buildings.get(buildings.size()-1).toString());
-                line = typesOfBuildings.readLine();
+                Buildings.outputBuilding(Buildings.readBuilding(fileBuildings), socket.getOutputStream());
+                System.out.println("send building " + buildingCount++);
             }
-            for (Building i:
-                    buildings
-                 ) {
-                Buildings.outputBuilding(i, socket.getOutputStream());
-            }
-
-
-
-            /*
-            fileWriter = new FileWriter("client.txt");
-            fileBuildings = new FileReader("MyTxt1.txt");
-
-            Building testBuilding = Buildings.readBuilding(bufferedReader);
-            Building testBuilding1 = Buildings.readBuilding(bufferedReader);
-            System.out.println(testBuilding.toString());
-            System.out.println(testBuilding1.toString());*/
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch (FileNotFoundException e1) {
+            e1.printStackTrace();
+        } catch (IOException e1) {
+            e1.printStackTrace();
         }
     }
 }
