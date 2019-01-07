@@ -22,7 +22,7 @@ public class BinaryClient {
     public static void main(String[] args) {
 
         int buildingCount = 0;
-        try (Socket socket = new Socket("192.168.0.105", 25069);
+        try (Socket socket = new Socket("localhost", 25069);
              FileReader fileBuildings = new FileReader("MyTxt1.txt")
         ) {
             ArrayList<String> lines = new ArrayList<>();

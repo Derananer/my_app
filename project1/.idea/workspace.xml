@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="46e4cd6e-72e2-43f6-8ff4-4c8d65479a4c" name="Default Changelist" comment="">
+    <list default="true" id="6065566b-821f-467c-a006-74f81dce3ebf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/project1/com/company/buildings/net/client/BinaryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/project1/com/company/buildings/net/client/BinaryClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="46e4cd6e-72e2-43f6-8ff4-4c8d65479a4c" name="Default Changelist" comment="" />
->>>>>>> practice_08
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,19 +14,26 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project1$Main.ic" NAME="Main Coverage Results" MODIFIED="1538675992082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="143" />
-  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="760286697">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -40,10 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/SequentalCleaner.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="466">
+              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,137 +53,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/myTxt1.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/typesOfBuildings.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/SequentalRepairer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="28" />
-=======
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/MySemaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
->>>>>>> practice_08
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/MySemaphore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/SynchronizedFloor.java">
-          <provider selected="true" editor-type-id="text-editor">
-=======
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/SynchronizedFloor.java">
-          <provider selected="true" editor-type-id="text-editor">
->>>>>>> practice_08
-            <state relative-caret-position="151">
-              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-              <folding>
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1002#1003#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java">
-<<<<<<< HEAD
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="50" column="146" selection-start-line="50" selection-start-column="146" selection-end-line="50" selection-end-column="146" />
-=======
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/server/sequental/BinaryServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
->>>>>>> practice_08
+            <state relative-caret-position="412">
+              <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/Repairer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/Flat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
-              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-              <folding>
-                <element signature="e#2002#2003#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFloor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Singleton" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>offices</find>
-      <find>java.lang</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -190,60 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/SpaceIndexOutOfBoundsException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/FloorIndexOutOfBoundsException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/InvalidSpaceAreaException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/InvalidRoomsCountExceptions.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/InvalidRoomsCountException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/IndexchangeableFloorsException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/IndexchangeableSpaceException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/InexchangeableSpaceException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/TryComporator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyClass.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MyClass1.java" />
-        <option value="$PROJECT_DIR$/src/com/company/myExceptions/InexchangeableFloorsException.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/PlacementExchange.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/hotel/Hotel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/TestMain.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/OfficeBuildingIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/OfficeFloorIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFloorIterator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/SpaceComporator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/FloorComparator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/BuildingFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/DwellingFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/OfficeFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/hotel/HotelFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/hotel/HotelBuilding.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/Repairer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/Cleaner.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/RepairerCleanerSemaphore.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/Space.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/Floor.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/Building.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/hotel/HotelFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/SynchronizedFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/SecuentalRepairer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/SequentalRepairer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/threads/SequentalCleaner.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/Flat.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/Dwelling.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/Office.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/OfficeFloor.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/officeBuildings/OfficeBuilding.java" />
-        <option value="$PROJECT_DIR$/testFileClient" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/Buildings.java" />
-        <option value="$PROJECT_DIR$/myTxt1.txt" />
-<<<<<<< HEAD
-=======
-        <option value="$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java" />
-        <option value="$PROJECT_DIR$/src/com/company/buildings/net/server/parallel/BinaryServer.java" />
->>>>>>> practice_08
-        <option value="$PROJECT_DIR$/src/com/company/buildings/net/server/sequental/BinaryServer.java" />
         <option value="$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java" />
       </list>
     </option>
@@ -254,27 +96,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-<<<<<<< HEAD
-    <option name="x" value="179" />
-    <option name="y" value="-13" />
-    <option name="width" value="1178" />
-=======
-    <option name="x" value="746" />
-    <option name="y" value="-13" />
-    <option name="width" value="1055" />
->>>>>>> practice_08
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -348,27 +178,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546780396044" />
-=======
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546780394725" />
->>>>>>> practice_08
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.buildings.officeBuildings" />
-    </key>
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546859776570" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -382,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryServer">
+  <component name="RunManager" selected="Application.BinaryClient">
     <configuration name="BinaryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.buildings.net.client.BinaryClient" />
       <module name="project1" />
@@ -409,41 +219,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="project1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.TestMain" />
-      <module name="project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.TestMain" />
-      <item itemvalue="Application.BinaryClient" />
       <item itemvalue="Application.BinaryServer" />
+      <item itemvalue="Application.BinaryClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinaryServer" />
         <item itemvalue="Application.BinaryClient" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.BinaryServer" />
       </list>
     </recent_temporary>
   </component>
@@ -482,22 +265,19 @@
       <workItem from="1546627263165" duration="12729000" />
       <workItem from="1546678353258" duration="11578000" />
       <workItem from="1546693857186" duration="296000" />
-      <workItem from="1546761933770" duration="12614000" />
+      <workItem from="1546761933770" duration="7656000" />
+      <workItem from="1546810430627" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="252891000" />
-=======
-    <option name="totallyTimeSpent" value="255501000" />
->>>>>>> practice_08
+    <option name="totallyTimeSpent" value="265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1359275" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,12 +287,8 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.27006507" />
-<<<<<<< HEAD
+      <window_info anchor="bottom" id="Run" order="3" weight="0.27006507" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39934355" />
-=======
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.24617068" />
->>>>>>> practice_08
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -520,7 +296,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32932165" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286334" />
       <window_info anchor="right" id="Maven" order="0" />
       <window_info anchor="right" id="Palette" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -534,7 +310,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960895" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22512563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2643794" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -544,8 +320,8 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32968238" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.27352297" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.24617068" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5426696" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -567,315 +343,38 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32960895" />
     </layout-to-restore>
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../my_app/project1/src/com/company/buildings/hotel/HotelFloor.java" />
-    <entry file="file://$PROJECT_DIR$/../my_app/project1/src/com/company/buildings/hotel/HotelBuilding.java" />
-    <entry file="file://$PROJECT_DIR$/../my_app/project1/src/com/company/buildings/threads/Repairer.java" />
-    <entry file="file://$PROJECT_DIR$/../my_app/project1/src/com/company/buildings/threads/Cleaner.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Semaphore.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/RepairerCleanerSemaphore.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/Cleaner.java">
+    <entry file="file://$PROJECT_DIR$/myTxt1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/hotel/HotelFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myOut.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myOut1.bin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serialize.bin" />
-    <entry file="file://$PROJECT_DIR$/serialize1.bin" />
-    <entry file="file://$PROJECT_DIR$/serialize2.bin" />
-    <entry file="file://$PROJECT_DIR$/.idea/description.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/Space.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/hotel/HotelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/SequentalRepairer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/Repairer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/Flat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-          <folding>
-            <element signature="e#2002#2003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/FloorComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/SpaceComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/Floor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/Dwelling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/officeBuilding/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="73" column="25" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/officeBuilding/OfficeFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/officeBuilding/OfficeBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1158">
-          <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+        <state relative-caret-position="51">
+          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTxt.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="56" lean-forward="true" selection-start-column="56" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/errorLogFile.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testFileClient" />
-    <entry file="file://$PROJECT_DIR$/typesOfBuildings" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myTxt1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typesOfBuildings.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/MySemaphore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/SynchronizedFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="357">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/SequentalCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/SynchronizedFloor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-=======
-        <state relative-caret-position="151">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1002#1003#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> practice_08
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/BuildingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/server/sequental/server/parallel/BinaryServer.java" />
-<<<<<<< HEAD
-=======
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/net/Socket.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/threads/SequentalCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
->>>>>>> practice_08
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="44" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="44" />
+        <state relative-caret-position="391">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/client/BinaryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="466">
+          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/dwelling/DwellingFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/Buildings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/hotel/HotelBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="365">
-          <caret line="50" column="146" selection-start-line="50" selection-start-column="146" selection-end-line="50" selection-end-column="146" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-=======
-        <state relative-caret-position="357">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/server/parallel/BinaryServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1203">
-          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
->>>>>>> practice_08
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/buildings/net/server/sequental/BinaryServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="75" column="89" selection-start-line="75" selection-start-column="89" selection-end-line="75" selection-end-column="89" />
+        <state relative-caret-position="412">
+          <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
